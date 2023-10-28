@@ -5,7 +5,7 @@ html {
   color: #fff;
   font-size: 16px;
   line-height: 1.42;
-  background: #031920;
+  background: #ffffff;
 }
 
 a {
@@ -51,4 +51,32 @@ address {
   width: 1100px;
 }
 
+.section {
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.section__title{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  text-align: center;
+  color: var(--black, #292929);
+  text-transform: uppercase;
+}
+
+.headline__subtitle {
+  color: var(--body, #666);
+  padding: 0 26%;
+  margin-bottom: 50px;
+}
+
+
+.headline {
+  text-align: center;
+}
  
