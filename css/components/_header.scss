@@ -31,10 +31,14 @@
     text-decoration: none;
 }
 
-
 .phone__box {
     display: flex;
+}
+
+.phone__numer-desc {
+    display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .phone__numer-icon {
@@ -49,4 +53,9 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+    flex-direction: row;
+    text-decoration: none;
 }
+
+
+ 
