@@ -1,7 +1,7 @@
 body,
 html {
   height: 100%;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   color: #fff;
   font-size: 16px;
   line-height: 1.42;
@@ -58,6 +58,7 @@ address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 80px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -401,6 +402,7 @@ template {
 
 .hero {
   background: url(../../img/bacgroundtopimg.png) center top no-repeat;
+  background-size: 100%, 100%;
   height: 100vh;
   min-height: 650px;
   color: #fff;
@@ -494,6 +496,7 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 60px;
 }
 
 .features__item {
@@ -565,8 +568,7 @@ template {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-  padding: 24px 0 45px;
-  margin-top: 108px;
+  padding: 0px 0 45px;
 }
 
 .prewiev__section {
@@ -771,7 +773,7 @@ template {
 
 .order__section {
   background-image: url(../../img/formOrderbg.jpg);
-  background-size: cover;
+  background-size: 100%, 100%;
   width: 1100px;
   height: 652px;
   display: block;
@@ -780,6 +782,7 @@ template {
 
 .section__title-orders {
   color: var(--white, #FFF);
+  margin-top: 62px;
 }
 
 .form {
@@ -885,6 +888,7 @@ template {
   position: relative;
   border-radius: 50%;
   background: #FFF;
+  margin-right: 12px;
 }
 .radio__visible::before {
   content: "";
@@ -902,4 +906,46 @@ template {
 
 .form__btns {
   margin-top: 44px;
+}
+
+.radio__title {
+  margin-right: 12px;
+}
+
+.fixed__menu {
+  position: fixed;
+  top: 20%;
+  right: 3%;
+  z-index: 100;
+}
+
+.fixed__menu-item {
+  margin-bottom: 5px;
+  border: 50%;
+}
+
+.fixed__menu-item--active .fixed__menu-link {
+  border-color: #fff;
+}
+
+.fixed__menu-link {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  display: block;
+  position: relative;
+}
+.fixed__menu-link:before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }

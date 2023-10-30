@@ -1,7 +1,7 @@
 body,
 html {
   height: 100%;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Alegreya Sans",  sans-serif;
   color: #fff;
   font-size: 16px;
   line-height: 1.42;
@@ -47,6 +47,9 @@ address {
   font-style: normal;
 }
 
+
+
+
 .container {
   width: 1100px;
 }
@@ -55,6 +58,7 @@ address {
   height: 100vh;
   min-height: 650px;
   display: flex;
+  margin-left: 80px;
   flex-direction: column;
   justify-content: center;
 }
