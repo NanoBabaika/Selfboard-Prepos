@@ -200,59 +200,91 @@
       
         <section class="section order__section">
           <div class="container">
-            <h2 class="section__title">закажите доску</h2>
-             <form action="" class="form">
+            <h2 class="section__title section__title-orders">закажите доску</h2>
+             <form class="form">
                <div class="form__col">
                   <div class="form__row">
                     <!-- поле ввода1  -->
-                    <label class="form__block" for="">
+                    <label class="form__block ">
                       <div class="form__title">Имя</div>
-                      <input type="text" class="form__input">
+                      <input type="text" class="form__input form__input1">
                     </label>
 
                     <!-- поле ввода2 -->
-                    <label class="form__block" for="">
-                      <div class="form__title">Имя</div>
-                      <input type="text" class="form__input">
+                    <label class="form__block ">
+                      <div class="form__title">Телефон</div>
+                      <input type="text" class="form__input form__input2">
                     </label>
 
                     <!-- поле вводаа3 -->
-                    <label class="form__block" for="">
-                      <div class="form__title">Имя</div>
-                      <input type="text" class="form__input">
+                    <label class="form__block">
+                      <div class="form__title">Улица</div>
+                      <input type="text" class="form__input form__input3">
                     </label>
 
                     <!-- поле ввода4 -->
-                    <label class="form__block" for="">
-                      <div class="form__title">Имя</div>
+                    <label class="form__block">
+                      <div class="form__title">Дом</div>
                       <input type="text" class="form__input">
                     </label>
 
                     <!-- поле ввода5 -->
-                    <label class="form__block" for="">
-                      <div class="form__title">Имя</div>
+                    <label class="form__block">
+                      <div class="form__title">Корпус</div>
                       <input type="text" class="form__input">
                     </label>
 
                     <!-- поле ввода6 -->
-                    <label class="form__block" for="">
-                      <div class="form__title">Имя</div>
+                    <label class="form__block">
+                      <div class="form__title">Квартира</div>
                       <input type="text" class="form__input">
                     </label>
 
                     <!-- поле ввода7 -->
-                    <label class="form__block" for="">
-                      <div class="form__title">Имя</div>
+                    <label class="form__block">
+                      <div class="form__title">Этаж</div>
                       <input type="text" class="form__input">
                     </label>
                   </div>                 
                </div>
                <div class="form__col">
+                 
                  <div class="form__row">
-                   <div class="form__block">
+                   <label class="form__block">
                      <div class="form__title">Комментарий</div>
-                     <!-- 2:19 -->
                      <textarea class="form__input form__input-textarea" name="" id=""></textarea>
+                    </label> 
+                   </div>
+
+                   <!-- радио кнопки -->
+                   <div class="form__controls">
+                     <label class="radio">
+                       <input class="radio__elem" name="option" type="radio" >
+                       <div class="radio__visible"></div>
+                       <div class="radio__title">Оплата наличными</div>
+                     </label>
+
+
+                     <label class="radio">
+                      <input class="radio__elem" name="option" type="radio" >
+                      <div class="radio__visible"></div>
+                      <div class="radio__title">Оплата картой</div>
+                     </label>
+                   </div>
+
+                   <div class="form__controls">
+                    <label class="radio radio--checkbox">
+                      <input class="radio__elem" type="checkbox" >
+                      <div class="radio__visible"></div>
+                      <div class="radio__title">Не перезванивать</div>
+                     </label>
+                   </div>
+
+                   <!-- просто кнопки -->
+
+                   <div class="form__btns">
+                     <input type="submit" value="Заказать" class="btn btn--theme-yellow ">
+                     <input type="reset" value="Очистить" class="btn btn--theme-transparent">
                    </div>
                  </div>
                </div>
@@ -264,5 +296,36 @@
       </div>
     </div>
 
+    <nav class="fixed__menu">
+      <ul class="fixed__menu-list">
+        <li class="fixed__menu-item fixed__menu-item--active">
+          <a href="#" class="fixed__menu-link"></a>
+        </li>
+        <li class="fixed__menu-item">
+          <a href="#" class="fixed__menu-link"></a>
+        </li>
+        <li class="fixed__menu-item">
+          <a href="#" class="fixed__menu-link"></a>
+        </li>
+        <li class="fixed__menu-item">
+          <a href="#" class="fixed__menu-link"></a>
+        </li>
+        <li class="fixed__menu-item">
+          <a href="#" class="fixed__menu-link"></a>
+        </li>
+        <li class="fixed__menu-item">
+          <a href="#" class="fixed__menu-link"></a>
+        </li>
+        <li class="fixed__menu-item">
+          <a href="#" class="fixed__menu-link"></a>
+        </li>
+        <li class="fixed__menu-item">
+          <a href="#" class="fixed__menu-link"></a>
+        </li>
+        <li class="fixed__menu-item">
+          <a href="#" class="fixed__menu-link"></a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
