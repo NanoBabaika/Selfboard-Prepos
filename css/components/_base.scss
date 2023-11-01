@@ -52,13 +52,14 @@ address {
 
 .container {
   width: 1100px;
+  margin: 0 auto;
 }
 
 .section {
   height: 100vh;
   min-height: 650px;
   display: flex;
-  margin-left: 80px;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
 }
