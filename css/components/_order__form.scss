@@ -1,23 +1,8 @@
 .order__section {
-    background-image: url(../../img/bgordersdark.png) ;
-    background-size: 100%, 100%;
-    width: 1100px;
-    height: 652px;
+    background: url(../../img/bgordersdark.png) no-repeat;
+    background-size: cover;
     display: block;
     position: relative;
-
-    // &:after {
-    //         content: '';
-    //         position: absolute;
-    //         top: 0;
-    //         left: 0;
-    //         right: 0;
-    //         bottom: 0;
-    //         background: rgba(0, 0, 0, 0.5);            
-    //         opacity: 0.3;
-    //         z-index: 1;
-    // }
-
         
 }
 
