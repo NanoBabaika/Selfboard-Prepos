@@ -3,7 +3,7 @@ html {
   height: 100%;
   font-family: "Alegreya Sans", sans-serif;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.42;
   background: #ffffff;
 }
@@ -49,9 +49,18 @@ address {
   font-style: normal;
 }
 
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
 .container {
   width: 95%;
+  max-width: 940px;
   margin: 0 auto;
+  position: relative;
 }
 
 .section {
@@ -531,7 +540,7 @@ template {
 .btn {
   font-size: 19px;
   font-weight: bold;
-  padding: 18px 35px;
+  padding: rem(18px) rem(35px);
   text-transform: uppercase;
   border-radius: 100px;
   line-height: 1;
@@ -733,7 +742,7 @@ template {
   position: relative;
 }
 .intaractive-avatar--active {
-  border-radius: #FEDB3F;
+  border-color: #FEDB3F;
 }
 
 .intaractive__avatar-link {
