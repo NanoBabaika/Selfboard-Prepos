@@ -1,5 +1,5 @@
 .headline__title {
-    margin-bottom: 25px;
+    margin-bottom: rem(25px);
 }
 
 .benefits {
@@ -15,7 +15,7 @@
     &::before {
         content: url(../../img/Combinedshapeicon.svg);
         position: absolute;
-        top: 50px;
+        top: rem(50px);
         right: 0;
         transform: translateX(50%);
     }
@@ -42,8 +42,8 @@
 
 .benefit__image-wrapper {
     display: inline-block;
-    width: 126px;
-    height: 126px;
+    width: rem(126px);
+    height: rem(126px);
     position: relative;
     background: #e6e9e7;
     border-radius: 50%;
@@ -51,8 +51,8 @@
 }
 
 .benefit__icon {
-   width: 75px;
-   height: 69px;
+   width: rem(75px);
+   height: rem(69px);
    position: absolute;
    top: 50%;
    left: 50%;
@@ -63,16 +63,16 @@
 .benefit__title {
     color: var(--black, #292929);
     font-family: Alegreya Sans;
-    font-size: 27px;
+    font-size: rem(27px);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 20px;
+    margin-bottom: rem(20px);
   }
   
   .benefit__desc {
     color: var(--body, #666);
     text-align: center;
-    font-size: 18px;
+    font-size: rem(18px);
     font-style: normal;
   }

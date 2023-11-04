@@ -2,7 +2,7 @@
 
 .rewievs__display {
     background: #F8FAF9;
-    padding: 50px 45px 34px;
+    padding: rem(50px) rem(45px) rem(34px);
 }
 
 .rewievs__display-inner {
@@ -10,8 +10,8 @@
 }
 
 .rewievs__avatar {
-    width: 254px;
-    height: 260px;
+    width: rem(254px);
+    height: rem(260px);
 }
 
 
@@ -24,31 +24,31 @@
 
 .rewievs__content {
     flex: 1;
-    margin-left: 20px;
+    margin-left: rem(20px);
 }
 
 .rewievs__title {
-    font-size: 30px;
+    font-size: rem(30px);
     font-weight: bold;
-    margin-bottom: 22px;
+    margin-bottom: rem(22px);
     color:#292929;
 }
 
 .rewievs__text {
     color: #666;
-    margin-bottom: 36px;
+    margin-bottom: rem(36px);
 }
 
 .rewievs__autor {
     color: #292929;
-    font-size: 18px;
+    font-size: rem(18px);
     font-weight: bold;
 }
 
 .intaractive-avatar {
-    width: 80px;
-    height: 80px;
-    border: 6px solid transparent;
+    width: rem(80px);
+    height: rem(80px);
+    border: rem(6px) solid transparent;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
@@ -79,7 +79,7 @@
 }
 
 .rewievs__switcher {
-    margin-top: 15px;
+    margin-top: rem(15px);
     display: flex;
     flex-direction: row;
     justify-content: center;

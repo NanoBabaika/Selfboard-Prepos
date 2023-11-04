@@ -2,12 +2,12 @@
     background: url(../../img/bgtopDark.png) center top no-repeat;
     background-size: cover;
     height: 100vh;
-    min-height: 650px;
+    min-height: rem(650px);
     color: #fff;
 }
 
 .header {
-    margin-top: 32px;
+    margin-top: rem(32px);
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -22,7 +22,7 @@
 }
 
 .menu__item {
-    margin-right: 15px;
+    margin-right: rem(15px);
 
     &:last-child{
         margin-right: 0;
@@ -45,14 +45,14 @@
 }
 
 .phone__numer-icon {
-    width: 12px;
-    height: 12px;
-    margin-right: 6px;
+    width: rem(12px);
+    height: rem(12px);
+    margin-right: rem(6px);
 }
 
 
 .phone__numer {
-    font-size: 24px;
+    font-size: rem(24px);
     text-decoration: none;
     display: flex;
     align-items: center;

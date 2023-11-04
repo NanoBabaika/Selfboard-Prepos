@@ -65,7 +65,7 @@ address {
 
 .section {
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,9 +80,9 @@ address {
 }
 
 .section__title {
-  font-size: 48px;
+  font-size: rem(48px);
   font-weight: bold;
-  margin-bottom: 60px;
+  margin-bottom: rem(60px);
   text-align: center;
   color: var(--black, #292929);
   text-transform: uppercase;
@@ -91,7 +91,7 @@ address {
 .headline__subtitle {
   color: var(--body, #666);
   padding: 0 26%;
-  margin-bottom: 50px;
+  margin-bottom: rem(50px);
 }
 
 .headline {
@@ -295,7 +295,7 @@ button:-moz-focusring,
 [type=button]:-moz-focusring,
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+  outline: rem(1px) dotted ButtonText;
 }
 
 /**
@@ -360,7 +360,7 @@ textarea {
  */
 [type=search] {
   -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  outline-offset: rem(-2px); /* 2 */
 }
 
 /**
@@ -415,12 +415,12 @@ template {
   background: url(../../img/bgtopDark.png) center top no-repeat;
   background-size: cover;
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   color: #fff;
 }
 
 .header {
-  margin-top: 32px;
+  margin-top: rem(32px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,7 +453,7 @@ template {
 }
 
 .menu__item {
-  margin-right: 15px;
+  margin-right: rem(15px);
 }
 .menu__item:last-child {
   margin-right: 0;
@@ -483,13 +483,13 @@ template {
 }
 
 .phone__numer-icon {
-  width: 12px;
-  height: 12px;
-  margin-right: 6px;
+  width: rem(12px);
+  height: rem(12px);
+  margin-right: rem(6px);
 }
 
 .phone__numer {
-  font-size: 24px;
+  font-size: rem(24px);
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -528,21 +528,21 @@ template {
 }
 
 .feature__icon {
-  width: 45px;
+  width: rem(45px);
   margin-right: 7px;
 }
 
 .feature__text {
-  font-size: 16px;
-  min-width: 85px;
+  font-size: rem(16px);
+  min-width: rem(85px);
 }
 
 .btn {
-  font-size: 19px;
+  font-size: rem(19px);
   font-weight: bold;
   padding: rem(18px) rem(35px);
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: rem(100px);
   line-height: 1;
   text-decoration: none;
   display: inline-block;
@@ -553,9 +553,9 @@ template {
 .btn--theme-yellow {
   background: #FEDB3F;
   color: #000;
-  padding: 18px 35px;
+  padding: rem(18px) rem(35px);
   font-weight: bold;
-  border-radius: 100px;
+  border-radius: rem(100px);
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -583,34 +583,34 @@ template {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-  padding: 0px 0 45px;
+  padding: rem(0px) 0 rem(45px);
 }
 
 .hero__title {
-  font-size: 48px;
+  font-size: rem(48px);
   line-height: 1.1;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: rem(15px);
   text-transform: uppercase;
 }
 
 .hero__title-section {
-  margin-top: 108px;
+  margin-top: rem(108px);
   max-width: 46%;
 }
 
 .hero__desc {
-  font-size: 21px;
-  margin-bottom: 40px;
+  font-size: rem(21px);
+  margin-bottom: rem(40px);
   padding-right: 10%;
 }
 
 .hero__icons-section {
-  margin-top: 64px;
+  margin-top: rem(64px);
 }
 
 .headline__title {
-  margin-bottom: 25px;
+  margin-bottom: rem(25px);
 }
 
 .benefits {
@@ -629,7 +629,7 @@ template {
 .benefits__item::before {
   content: url(../../img/Combinedshapeicon.svg);
   position: absolute;
-  top: 50px;
+  top: rem(50px);
   right: 0;
   -webkit-transform: translateX(50%);
           transform: translateX(50%);
@@ -650,8 +650,8 @@ template {
 
 .benefit__image-wrapper {
   display: inline-block;
-  width: 126px;
-  height: 126px;
+  width: rem(126px);
+  height: rem(126px);
   position: relative;
   background: #e6e9e7;
   border-radius: 50%;
@@ -659,8 +659,8 @@ template {
 }
 
 .benefit__icon {
-  width: 75px;
-  height: 69px;
+  width: rem(75px);
+  height: rem(69px);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -671,23 +671,23 @@ template {
 .benefit__title {
   color: var(--black, #292929);
   font-family: Alegreya Sans;
-  font-size: 27px;
+  font-size: rem(27px);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 20px;
+  margin-bottom: rem(20px);
 }
 
 .benefit__desc {
   color: var(--body, #666);
   text-align: center;
-  font-size: 18px;
+  font-size: rem(18px);
   font-style: normal;
 }
 
 .rewievs__display {
   background: #F8FAF9;
-  padding: 50px 45px 34px;
+  padding: rem(50px) rem(45px) rem(34px);
 }
 
 .rewievs__display-inner {
@@ -697,8 +697,8 @@ template {
 }
 
 .rewievs__avatar {
-  width: 254px;
-  height: 260px;
+  width: rem(254px);
+  height: rem(260px);
 }
 
 .rewievs__avatar-img {
@@ -712,31 +712,31 @@ template {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-left: 20px;
+  margin-left: rem(20px);
 }
 
 .rewievs__title {
-  font-size: 30px;
+  font-size: rem(30px);
   font-weight: bold;
-  margin-bottom: 22px;
+  margin-bottom: rem(22px);
   color: #292929;
 }
 
 .rewievs__text {
   color: #666;
-  margin-bottom: 36px;
+  margin-bottom: rem(36px);
 }
 
 .rewievs__autor {
   color: #292929;
-  font-size: 18px;
+  font-size: rem(18px);
   font-weight: bold;
 }
 
 .intaractive-avatar {
-  width: 80px;
-  height: 80px;
-  border: 6px solid transparent;
+  width: rem(80px);
+  height: rem(80px);
+  border: rem(6px) solid transparent;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
@@ -763,7 +763,7 @@ template {
 }
 
 .rewievs__switcher {
-  margin-top: 15px;
+  margin-top: rem(15px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -785,7 +785,7 @@ template {
 
 .section__title-orders {
   color: var(--white, #FFF);
-  margin-top: 62px;
+  margin-top: rem(62px);
 }
 
 .form {
@@ -798,9 +798,9 @@ template {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-right: 20px;
-  width: 450px;
-  padding: 0 20px;
+  margin-right: rem(20px);
+  width: rem(450px);
+  padding: 0 rem(20px);
 }
 .form__col:last-child {
   margin-right: 0;
@@ -812,14 +812,14 @@ template {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 18px;
+  margin-bottom: rem(18px);
 }
 
 .form__block {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-right: 20px;
+  margin-right: rem(20px);
 }
 .form__block:last-child .form__input3 {
   margin-right: 0;
@@ -828,9 +828,9 @@ template {
 .form__input {
   width: 100%;
   border: none;
-  padding: 18px 11px;
-  border-radius: 4px;
-  border: solid 3px transparent;
+  padding: rem(18px) rem(11px);
+  border-radius: rem(4px);
+  border: solid rem(3px) transparent;
 }
 .form__input:focus {
   border-color: #FEDB3F;
@@ -838,7 +838,7 @@ template {
 }
 
 .form__input-textarea {
-  height: 142px;
+  height: rem(142px);
   resize: none;
 }
 
@@ -848,7 +848,7 @@ template {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 36px;
+  margin-top: rem(36px);
 }
 
 .radio {
@@ -878,17 +878,17 @@ template {
 }
 
 .radio__visible {
-  width: 26px;
-  height: 26px;
+  width: rem(26px);
+  height: rem(26px);
   position: relative;
   border-radius: 50%;
   background: #FFF;
-  margin-right: 12px;
+  margin-right: rem(12px);
 }
 .radio__visible::before {
   content: "";
-  width: 14px;
-  height: 14px;
+  width: rem(14px);
+  height: rem(14px);
   background: Yellow;
   border-radius: 50%;
   position: absolute;
@@ -900,11 +900,11 @@ template {
 }
 
 .form__btns {
-  margin-top: 44px;
+  margin-top: rem(44px);
 }
 
 .radio__title {
-  margin-right: 12px;
+  margin-right: rem(12px);
 }
 
 .fixed__menu {
@@ -915,7 +915,7 @@ template {
 }
 
 .fixed__menu-item {
-  margin-bottom: 5px;
+  margin-bottom: rem(5px);
   border: 50%;
 }
 
@@ -928,18 +928,18 @@ template {
 }
 
 .fixed__menu-link {
-  width: 16px;
-  height: 16px;
+  width: rem(16px);
+  height: rem(16px);
   border-radius: 50%;
-  border: 1px solid transparent;
+  border: rem(1px) solid transparent;
   display: block;
   position: relative;
 }
 .fixed__menu-link:before {
   content: "";
   display: block;
-  width: 6px;
-  height: 6px;
+  width: rem(6px);
+  height: rem(6px);
   border-radius: 50%;
   background: #fff;
   position: absolute;

@@ -66,7 +66,7 @@ address {
 
 .section {
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   display: flex;
   margin: 0 auto;
   flex-direction: column;
@@ -75,9 +75,9 @@ address {
 
 
 .section__title{
-  font-size: 48px;
+  font-size: rem(48px);
   font-weight: bold;
-  margin-bottom: 60px;
+  margin-bottom: rem(60px);
   text-align: center;
   color: var(--black, #292929);
   text-transform: uppercase;
@@ -86,7 +86,7 @@ address {
 .headline__subtitle {
   color: var(--body, #666);
   padding: 0 26%;
-  margin-bottom: 50px;
+  margin-bottom: rem(50px);
 }
 
 
