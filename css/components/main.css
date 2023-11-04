@@ -837,14 +837,6 @@ template {
   outline: none;
 }
 
-.form__input1 {
-  width: 225px;
-}
-
-.form__input3 {
-  width: 480px;
-}
-
 .form__input-textarea {
   height: 142px;
   resize: none;
