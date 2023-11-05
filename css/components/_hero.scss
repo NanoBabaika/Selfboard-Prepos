@@ -22,14 +22,35 @@
   .hero__title-section {
       margin-top: rem(108px);
       max-width: 46%;
+
+      @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
   }
 
   .hero__desc {
       font-size: rem(21px);
       margin-bottom: rem(40px);
       padding-right: 10%;
+
+      @include tablets {
+        padding: 0 25%;
+      }
   }
 
+
+  .hero__icons-section {
+    @include tablets {
+        display: none;
+    }
+  }
 
   .hero__icons-section{
     margin-top: rem(64px);

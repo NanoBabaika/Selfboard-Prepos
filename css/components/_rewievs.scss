@@ -7,11 +7,22 @@
 
 .rewievs__display-inner {
     display: flex;
+
+    @include tablets {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
 }
 
 .rewievs__avatar {
     width: rem(254px);
     height: rem(260px);
+
+    @include tablets  {
+        width: 130px;
+        height: 132px;
+    }
 }
 
 
