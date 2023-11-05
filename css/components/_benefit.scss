@@ -2,8 +2,20 @@
     margin-bottom: rem(25px);
 }
 
+.headline__subtitle {
+
+    @include phones  {
+        padding: 0 2%;
+    }
+}
+
 .benefits {
     display: flex;
+
+    @include phones {
+        flex-direction: column;
+        text-align: left;
+      }
 
 }
 
@@ -11,6 +23,11 @@
     flex: 1;
     padding: 0 3%;
     position: relative;
+
+    @include phones {
+         padding: 0;
+         margin-bottom: 19px;
+      }
 
     &::before {
         content: url(../../img/Combinedshapeicon.svg);
@@ -43,6 +60,9 @@
 .benefit {
     text-align: center;
 
+    @include phones {
+        display: flex;
+    }
 }
 
 
@@ -54,6 +74,11 @@
     background: #e6e9e7;
     border-radius: 50%;
     overflow: hidden;
+
+    @include phones  {
+       width: 70%;
+    }
+    
 }
 
 .benefit__icon {
@@ -63,6 +88,11 @@
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%); 
+
+   @include phones {
+    margin-right: rem(19px);
+   }
+    
 }
 
 
@@ -81,4 +111,7 @@
     text-align: center;
     font-size: rem(18px);
     font-style: normal;
+
+   
   }
+ 

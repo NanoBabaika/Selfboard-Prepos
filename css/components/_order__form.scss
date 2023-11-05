@@ -15,6 +15,15 @@
 
 .form {
     display: flex;
+    
+    @include tablets {
+        padding: 0 19%;
+        flex-direction: column;
+    }
+
+    @include phones {
+        padding: 0;
+    }
 }
 
 .form__col {
@@ -25,6 +34,10 @@
 
    &:last-child {
        margin-right: 0;
+    }
+
+    @include tablets {
+        margin-right: 0;
     }
 }
 
@@ -69,6 +82,11 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: rem(36px);
+
+
+    @include phones {
+        justify-content: center;
+    }
 }
 
 
@@ -79,6 +97,9 @@
     cursor: pointer;
     user-select: none;
 
+    @include phones {
+        margin-bottom: rem(10px);
+    }
 
     &--checkbox {
         .radio__visible {
@@ -131,6 +152,8 @@
 
 .form__btns {
     margin-top: rem(44px);
+    display: flex;
+    justify-content: center;
 }
 
 

@@ -460,6 +460,7 @@ template {
 @media screen and (max-width: 768px) {
   .hero {
     background-image: url(../../img/bg768px.png);
+    background-position: center;
   }
 }
 
@@ -704,6 +705,11 @@ template {
     padding: 0 25%;
   }
 }
+@media screen and (max-width: 480px) {
+  .hero__desc {
+    padding: 0 3%;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .hero__icons-section {
@@ -719,10 +725,25 @@ template {
   margin-bottom: 1.3888888889rem;
 }
 
+@media screen and (max-width: 480px) {
+  .headline__subtitle {
+    padding: 0 2%;
+  }
+}
+
 .benefits {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+@media screen and (max-width: 480px) {
+  .benefits {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+  }
 }
 
 .benefits__item {
@@ -731,6 +752,12 @@ template {
           flex: 1;
   padding: 0 3%;
   position: relative;
+}
+@media screen and (max-width: 480px) {
+  .benefits__item {
+    padding: 0;
+    margin-bottom: 19px;
+  }
 }
 .benefits__item::before {
   content: url(../../img/Combinedshapeicon.svg);
@@ -758,6 +785,13 @@ template {
 .benefit {
   text-align: center;
 }
+@media screen and (max-width: 480px) {
+  .benefit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 
 .benefit__image-wrapper {
   display: inline-block;
@@ -768,6 +802,11 @@ template {
   border-radius: 50%;
   overflow: hidden;
 }
+@media screen and (max-width: 480px) {
+  .benefit__image-wrapper {
+    width: 70%;
+  }
+}
 
 .benefit__icon {
   width: 4.1666666667rem;
@@ -777,6 +816,11 @@ template {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 480px) {
+  .benefit__icon {
+    margin-right: 1.0555555556rem;
+  }
 }
 
 .benefit__title {
@@ -922,6 +966,20 @@ template {
   display: -ms-flexbox;
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .form {
+    padding: 0 19%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form {
+    padding: 0;
+  }
+}
 
 .form__col {
   -webkit-box-flex: 1;
@@ -933,6 +991,11 @@ template {
 }
 .form__col:last-child {
   margin-right: 0;
+}
+@media screen and (max-width: 768px) {
+  .form__col {
+    margin-right: 0;
+  }
 }
 
 .form__row {
@@ -979,6 +1042,13 @@ template {
       flex-wrap: wrap;
   margin-top: 2rem;
 }
+@media screen and (max-width: 480px) {
+  .form__controls {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .radio {
   display: -webkit-box;
@@ -989,6 +1059,11 @@ template {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+@media screen and (max-width: 480px) {
+  .radio {
+    margin-bottom: 0.5555555556rem;
+  }
 }
 .radio--checkbox .radio__visible {
   border-radius: 0;
@@ -1030,6 +1105,12 @@ template {
 
 .form__btns {
   margin-top: 2.4444444444rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .radio__title {
