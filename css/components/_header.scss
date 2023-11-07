@@ -21,13 +21,14 @@
 
     @include tablets {
         background-color: #1968B1;
-        
+        align-items: center;
+
      }
 }
 
 .menu {
     margin: 0 30px;
-    padding-top: 5px;
+    padding-top: rem(5px);
 
     @include tablets{
         display: none;
@@ -43,7 +44,7 @@
 }
 
 .menu__item {
-    margin-top: 10px;
+    margin-top: rem(10px);
     margin-right: rem(15px);
 
     &:last-child{
@@ -88,7 +89,8 @@
     text-decoration: none;
 }
 
-.phone__number .header__phone-number {
+.phone  {
+   
     @include tablets {
         display: none;
     }
