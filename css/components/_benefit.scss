@@ -27,6 +27,10 @@
     @include phones {
          padding: 0;
          margin-bottom: 19px;
+
+        &:last-child {
+            margin-bottom: rem(0px);
+         }
       }
 
     &::before {
@@ -74,11 +78,11 @@
     background: #e6e9e7;
     border-radius: 50%;
     overflow: hidden;
+    flex-shrink: 0;
 
-    @include phones  {
-       width: 70%;
+    @include phones {
+        margin-right: 12px;
     }
-    
 }
 
 .benefit__icon {
@@ -111,7 +115,17 @@
     text-align: center;
     font-size: rem(18px);
     font-style: normal;
+    
+    @include phones {
+        text-align: left;
+    }
 
-   
   }
  
+
+  .benefit__text {
+    
+    @include phones {
+        text-align: left;
+    }
+  }
