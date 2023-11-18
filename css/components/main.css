@@ -1466,6 +1466,15 @@ template {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.title__triangle {
+  position: relative;
+  right: -12px;
+  top: 8px;
 }
 
 .content__profession {
@@ -1484,4 +1493,11 @@ template {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+
+.team__content {
+  overflow: hidden;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
+  height: 0;
 }
